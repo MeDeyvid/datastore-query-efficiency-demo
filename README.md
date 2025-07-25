@@ -56,6 +56,12 @@ Cada script executa uma estratégia diferente de consulta e exibe uma tabela com
   # ou
   npm run stream
   ```
+- **Generator** (adicione aqui a explicação se o script generator.ts for relevante):
+  ```bash
+  pnpm run generator
+  # ou
+  npm run generator
+  ```
 
 ## Observações
 
@@ -65,7 +71,7 @@ Cada script executa uma estratégia diferente de consulta e exibe uma tabela com
 
 ## Limpeza
 
-- Para remover todos os usuários do Datastore:
+- Para remover todos os usuários do Datastore de forma eficiente (usando stream e batches):
 
 ```bash
 pnpm run clean
