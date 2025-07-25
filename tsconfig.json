@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Versão de JS gerada
+    "module": "commonjs",              // Formato de módulo (padrão Node)
+    "strict": true,                    // Ativa todas as checagens estritas
+    "esModuleInterop": true,           // Permite importar libs como o faker e outras
+    "skipLibCheck": true,              // Acelera build pulando verificação de tipos das libs
+    "forceConsistentCasingInFileNames": true, // Garante consistência de maiúsc/minúsc
+    "outDir": "dist"                   // Opcional: para quando quiser compilar para .js
+  },
+  "include": [
+    "src",
+    "scripts",
+    "*.ts"
+  ]
+}

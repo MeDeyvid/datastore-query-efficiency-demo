@@ -1,0 +1,26 @@
+{
+  "name": "datastore-query-efficiency-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "ts-node scripts/seed.ts",
+    "promise": "ts-node scripts/promise.all.ts",
+    "cursor": "ts-node scripts/cursor.ts",
+    "stream": "ts-node scripts/stream.ts",
+    "clean": "ts-node scripts/clean.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^10.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@types/faker": "^6.6.11",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
