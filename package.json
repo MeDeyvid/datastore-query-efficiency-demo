@@ -8,6 +8,7 @@
     "promise": "ts-node scripts/promise.all.ts",
     "cursor": "ts-node scripts/cursor.ts",
     "stream": "ts-node scripts/stream.ts",
+    "generator": "ts-node scripts/generator.ts",
     "clean": "ts-node scripts/clean.ts"
   },
   "keywords": [],
