@@ -11,6 +11,9 @@ importers:
       '@google-cloud/datastore':
         specifier: ^10.0.1
         version: 10.0.1
+      p-limit:
+        specifier: ^7.1.0
+        version: 7.1.0
     devDependencies:
       '@faker-js/faker':
         specifier: ^9.9.0
@@ -426,6 +429,10 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
+  p-limit@7.1.0:
+    resolution: {integrity: sha512-7LbrpOjbzBWFHFgRtVrIAwBwW1bB7c7n914Q2+CXr1TvOfbTrVHAEH1Ya9PwDwAoKLeiRrczymYWPwaHNOQ0vA==}
+    engines: {node: '>=20'}
+
   proto3-json-serializer@3.0.1:
     resolution: {integrity: sha512-Rug90pDIefARAG9MgaFjd0yR/YP4bN3Fov00kckXMjTZa0x86c4WoWfCQFdSeWi9DvRXjhfLlPDIvODB5LOTfg==}
     engines: {node: '>=18'}
@@ -540,6 +547,10 @@ packages:
   yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
+
+  yocto-queue@1.2.1:
+    resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
+    engines: {node: '>=12.20'}
 
 snapshots:
 
@@ -956,6 +967,10 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
+  p-limit@7.1.0:
+    dependencies:
+      yocto-queue: 1.2.1
+
   proto3-json-serializer@3.0.1:
     dependencies:
       protobufjs: 7.5.3
@@ -1099,3 +1114,5 @@ snapshots:
       yargs-parser: 21.1.1
 
   yn@3.1.1: {}
+
+  yocto-queue@1.2.1: {}

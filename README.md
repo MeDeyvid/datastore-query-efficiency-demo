@@ -56,6 +56,12 @@ Cada script executa uma estratégia diferente de consulta e exibe uma tabela com
   # ou
   npm run stream
   ```
+- **P-Limit** (consulta com limitação manual de concorrência):
+  ```bash
+  pnpm run p-limit
+  # ou
+  npm run p-limit
+  ```
 - **Generator** (adicione aqui a explicação se o script generator.ts for relevante):
   ```bash
   pnpm run generator

@@ -6,6 +6,7 @@
   "scripts": {
     "seed": "ts-node scripts/seed.ts",
     "promise": "ts-node scripts/promise.all.ts",
+    "p-limit": "node scripts/p-limit.mjs",
     "cursor": "ts-node scripts/cursor.ts",
     "stream": "ts-node scripts/stream.ts",
     "generator": "ts-node scripts/generator.ts",
@@ -15,7 +16,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/datastore": "^10.0.1"
+    "@google-cloud/datastore": "^10.0.1",
+    "p-limit": "^7.1.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.9.0",
