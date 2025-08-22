@@ -62,6 +62,12 @@ Cada script executa uma estratégia diferente de consulta e exibe uma tabela com
   # ou
   npm run p-limit
   ```
+- **Throat** (consulta com limitação de concorrência usando throat):
+  ```bash
+  pnpm run throat
+  # ou
+  npm run throat
+  ```
 - **Generator** (adicione aqui a explicação se o script generator.ts for relevante):
   ```bash
   pnpm run generator
